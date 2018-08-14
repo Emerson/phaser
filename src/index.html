@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Phaser v3</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #game-wrapper, .react-ui {
+      width: 1200px;
+      height: 640px;
+      position: relative;
+    }
+    #canvas {
+      position: absolute;
+      top: 60px;
+      left: 0;
+    }
+    .primaryNav {
+      height: 40px;
+      padding: 10px;
+      background: #efefef;
+    }
+    .primaryNav ul {
+      margin: 0;
+      padding: 0;
+    }
+    .primaryNav li {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      margin-right: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <script src="index.js"></script>
+  <div id="game-wrapper">
+    <div class="react-ui"></div>
+    <div id="canvas"></div>
+  </div>
+</body>
+
+</html>
